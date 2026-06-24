@@ -1,6 +1,6 @@
 # Calculadora React
 
-Projeto desenvolvido como parte do Bootcamp da [DIO (Digital Innovation One)](https://www.dio.me/), utilizando React com componentes funcionais e hooks customizados.
+Projeto desenvolvido como parte da formação em React da [DIO (Digital Innovation One)](https://www.dio.me/), utilizando React com componentes funcionais e hooks customizados.
 
 ## Funcionalidades
 
