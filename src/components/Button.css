@@ -1,0 +1,66 @@
+.btn {
+  border: none;
+  border-radius: 12px;
+  height: 64px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    transform 0.08s,
+    filter 0.08s;
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.93);
+  filter: brightness(0.85);
+}
+
+/* Variantes */
+.btn--num {
+  background: #252540;
+  color: #c8c8e8;
+}
+.btn--num:hover {
+  background: #2e2e50;
+}
+
+.btn--op {
+  background: #7c3aed;
+  color: #fff;
+  font-size: 1.25rem;
+}
+.btn--op:hover {
+  background: #8b5cf6;
+}
+.btn--op.btn--active {
+  background: #a78bfa;
+  color: #1a1a2e;
+}
+
+.btn--ac {
+  background: #2e2e50;
+  color: #a0a0d0;
+  font-size: 1rem;
+}
+.btn--ac:hover {
+  background: #38385c;
+}
+
+.btn--eq {
+  background: #e91e8c;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.btn--eq:hover {
+  background: #f03399;
+}
+
+/* Botão 0 largo */
+.btn--wide {
+  grid-column: span 2;
+  border-radius: 32px;
+  text-align: left;
+  padding-left: 24px;
+}

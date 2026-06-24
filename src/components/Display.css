@@ -1,0 +1,31 @@
+.display {
+  background: #0f0f1e;
+  border-radius: 14px;
+  padding: 16px 20px 12px;
+  margin-bottom: 18px;
+  min-height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  border: 1px solid #2a2a4a;
+}
+
+.display__expression {
+  font-size: 0.8rem;
+  color: #6b6b9a;
+  min-height: 18px;
+  margin-bottom: 4px;
+  word-break: break-all;
+  text-align: right;
+}
+
+.display__value {
+  font-weight: 600;
+  color: #e8e8f5;
+  word-break: break-all;
+  line-height: 1;
+  text-align: right;
+  transition: font-size 0.1s;
+}
